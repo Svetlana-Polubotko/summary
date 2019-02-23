@@ -1,0 +1,427 @@
+/* Здесь будут храниться стили нашего сайта */
+body {
+    margin: 0;
+    background-color: #ffffff;
+    font-family: a_AvanteLt;
+}
+
+@font-face {
+    font-family: a_AvanteBt; /* Имя шрифта */
+    src: url(../font/6796.ttf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: a_AvanteLt; /* Имя шрифта */
+    src: url(../font/6810.ttf); /* Путь к файлу со шрифтом */
+}
+
+header {
+    background: url("../img/bg.png") no-repeat;
+    margin: 0;
+    background-size: cover;
+
+}
+
+header h1 {
+    font-family: 'a_AvanteLt';
+    color: #000000;
+    font-size: 45px;
+    text-transform: uppercase;
+    margin-top: 25%;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.no-pading {
+    padding: 0;
+}
+
+.header-foto {
+    margin-left: 15%;
+    margin-top: 15%;
+}
+
+.vacancy {
+    font-family: 'a_AvanteLt';
+    color: #dddddd;
+    font-size: 25px;
+    margin-top: 12%;
+    margin-bottom: 15%;
+}
+
+.header-button {
+    text-decoration: none;
+    border-radius: 50px;
+    background-color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #000000;
+    font-size: 15px;
+    padding: 3% 10%;
+    margin-right: 2%;
+}
+
+.header-button:hover {
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.7);
+    transition: all, 0.3s;
+
+}
+
+.bg-white {
+    background: url("../img/bgwithe.png") no-repeat;
+    height: 300px;
+    font-size: 19px;
+    background-size: contain;
+    padding: 170px 0 0 70px;
+}
+
+.about-img {
+    position: absolute;
+}
+
+.icon-plane {
+    margin-top: 60px;
+    vertical-align: top;
+    float: right;
+
+}
+
+.name-list {
+    position: static;
+    color: #3da7a4;
+    font-size: 22px;
+    font-family: a_AvanteBt;
+    padding-left: 15px;
+
+}
+
+.list {
+    margin-right: 20px;
+    display: inline-block;
+    float: right;
+
+}
+
+.li-list {
+
+    padding-left: 15px;
+    padding-top: 15px;
+    font-size: 16px;
+    margin-right: 20px;
+
+}
+
+.li-list a,
+.li-list span {
+    vertical-align: top;
+    line-height: 25px;
+    color: black;
+}
+
+.li-list span b {
+    vertical-align: top;
+    font-family: a_AvanteBt;
+}
+
+.list-1 {
+    margin-left: 20px;
+    list-style-type: none; /* Прячем исходные маркеры */
+    list-style-image: url("../img/logo/icon-list.png"); /* Сам маркер */
+    vertical-align: bottom;
+}
+
+.list-2 {
+    margin-left: 80px;
+    margin-top: 0;
+}
+
+.bg-green {
+    background: url("../img/bg-green.jpg") no-repeat;
+    background-size: contain;
+    height: 250px;
+
+}
+
+.pencil {
+    margin-top: 40px;
+    float: left;
+    margin-left: 15%;
+
+}
+
+.education-blok {
+    margin-left: 2%;
+    display: inline-block;
+    float: left;
+}
+
+.education {
+    color: #ffffff;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.university {
+    color: #ffffff;
+    font-size: 18px;
+    font-family: a_AvanteBt;
+    margin: 2px;
+}
+
+.other-about {
+    color: #ffffff;
+    font-size: 16px;
+    margin: 2px;
+}
+
+.cv {
+    background: url("../img/bg-grey.jpg") no-repeat;
+    background-size: cover;
+    margin: 0;
+
+}
+
+.name-list-2 {
+    color: #3da7a4;
+    font-size: 20px;
+    margin-bottom: 30px;
+    line-height: 70px;
+    vertical-align: top;
+    margin-left: 25px;
+
+}
+
+.cv-block {
+    margin-top: 20px;
+}
+
+.cv-container {
+    margin-bottom: 25px;
+}
+
+.cv-img {
+    position: absolute;
+    right: 0%;
+    margin-top: -160px;
+
+}
+
+.portfolio-img {
+    position: relative;
+    left: 5%;
+    max-width: 95%;
+}
+
+.portfolio {
+    background: url("../img/bg-portolio.jpg") no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.carusel-prev {
+    transform: rotate(180deg);
+    padding-bottom: 100px;
+    cursor: pointer;
+
+}
+
+.carusel-next {
+
+    float: right;
+    padding-top: 100px;
+    cursor: pointer;
+
+}
+
+.owl-carousel p,
+.owl-carousel h2 {
+    color: #fff;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.view-more {
+    text-align: center;
+    color: black;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    padding: 10px 5px;
+    width: 55%;
+    margin-left: 20%;
+
+}
+
+.art-img {
+    overflow: auto;
+    padding: 40px 0;
+    position: relative;
+}
+
+.art-img img {
+    margin-right: 10px;
+}
+
+.art-img-bottom {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.art-img-right {
+    float: right;
+}
+
+.owl-item div {
+    padding-left: 5px;
+}
+
+.owl-nav {
+    display: none;
+}
+
+@media screen and (max-width: 1100px) {
+    .bg-white {
+        height: auto;
+        padding: 30px 30px 30px 20px;
+        text-align: center;
+        background: #ffffff;
+    }
+
+    .bg-green {
+        height: auto;
+        padding: 15px 0 15px 0;
+        text-align: center;
+        background: #009992;
+    }
+}
+
+@media (max-width: 992px) {
+    header h1 {
+        font-size: 30px;
+    }
+
+    .about-img {
+        display: none;
+    }
+
+    .header-foto {
+        margin: 0;
+        width: 200px;
+        height: 200px;
+        margin-top: 35%;
+    }
+
+    .margin {
+        margin-bottom: 15%;
+    }
+
+    .bg-white {
+        margin-top: 10%;
+    }
+    .art-img {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .pencil {
+        float: none;
+        width: 40px;
+        height: 40px;
+        margin: 0;
+    }
+    .vacancy{
+        color: #FFFFFF;
+    }
+    .list {
+        margin-right: 10%;
+        margin-left: 5%;
+    }
+    .list-2 {
+        margin-left: 0;
+    }
+
+    .vacancy {
+        font-size: 20px;
+        margin-top: 5%;
+        margin-bottom: 7%;
+    }
+
+    .header-button {
+        padding: 12px 9%;
+        margin-right: 1%;
+
+    }
+
+    .header-foto {
+
+        margin-top: 5%;
+    }
+
+    .top-info {
+        text-align: center;
+    }
+
+    header h1 {
+        margin-top: 10%;
+    }
+
+    .art-img {
+        display: none;
+    }
+
+    .carusel-prev {
+        display: none;
+    }
+
+    .carusel-next {
+        display: none;
+    }
+    .education-blok{
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .icon-plane {
+        display: none;
+    }
+
+    .header-title {
+        font-size: 20px;
+    }
+
+    .vacancy {
+        font-size: 18px;
+    }
+
+    .header-button {
+        padding: 5px 7%;
+    }
+
+
+}
+
+@media (max-width: 476px) {
+    .icon-plane {
+        display: none;
+    }
+    .list {
+        margin-right: 15px;
+        margin-left: 25px;
+    }
+
+
+
+
+}

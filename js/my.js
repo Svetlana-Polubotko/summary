@@ -57,3 +57,28 @@ $(document).ready(function () {
         owl.trigger('prev.owl.carousel');
     });
 });
+
+
+
+
+
+
+
+
+
+
+
+
+// $(window).scroll(function(event) {
+//     var utka = $('.sidenav li.active');
+
+//     $(function () {
+//       $('.sidenav').scrollTop($(utka).position().top) ;
+//     });
+// });
+
+
+
+
+
+
